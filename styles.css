@@ -1,0 +1,54 @@
+ body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.headline-container{
+  display: flex;
+  max-height: 90vh;
+}
+
+.logo {
+  margin: 2rem 0 0 2rem;
+  width: 50px;
+}
+
+.headline-image {
+  object-fit: cover;
+  height: 100vh;
+}
+
+.right-side {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.left-side {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  margin: 0 4rem;
+}
+
+.button{
+  border: 1px solid #A780E1;
+  border-radius: 10px;
+  min-height: 48px;
+  min-width: 300px;
+  background: #FFF;
+  color: #8150cc;
+  font-weight: bold;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #eaddff;
+  transition: background .3s;
+}
+
+.experience-container {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+}
